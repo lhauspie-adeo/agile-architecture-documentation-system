@@ -1,32 +1,380 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1136px" preserveAspectRatio="none" style="width:1378px;height:1136px;" version="1.1" viewBox="0 0 1378 1136" width="1378px" zoomAndPan="magnify"><defs><style type="text/css"><![CDATA[path:hover { stroke: #ADFF2F !important;}]]></style></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="484" x="454.5" y="16.708">Agile architecture documentation - base - Components</text><!--MD5=[6c92572c3f4e2a9cd136761fda995e3d]
-cluster 10_boundary--><rect fill="#FFFFFF" height="1055" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="1353" x="14" y="36.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="83" x="649" y="51.9482">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="42" x="669.5" y="70.1016">base</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="650.5" y="85.0137">[Container]</text><!--MD5=[50c48f50f23c4505b4e1bf8eb0388b7a]
-entity 15--><rect fill="#85BBF0" height="66.5625" style="stroke: #78A8D8; stroke-width: 1.5;" width="328" x="737" y="95.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="858.5" y="117.0918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="308" x="747" y="134.7734">ArchitectureDocumentationBuilder</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="871.5" y="149.6855">[Java/CDI]</text><!--MD5=[dc00b6f0bfcb3e33cce0c0c30000e56b]
-entity 17--><rect fill="#85BBF0" height="66.5625" style="stroke: #78A8D8; stroke-width: 1.5;" width="214" x="546" y="374.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="610.5" y="395.5918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="194" x="556" y="413.2734">ArchitectureEnhancer</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="623.5" y="428.1855">[Java/CDI]</text><!--MD5=[b289b39ced8dc6d267141842d8cb9775]
-entity 14--><rect fill="#85BBF0" height="66.5625" style="stroke: #78A8D8; stroke-width: 1.5;" width="200" x="22" y="679.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="79.5" y="700.5918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="180" x="32" y="718.2734">DocumentsCollector</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="92.5" y="733.1855">[Java/CDI]</text><!--MD5=[2e47fe9ff0124b653d7be087bd1c1ac2]
-entity 12--><rect fill="#85BBF0" height="66.5625" style="stroke: #78A8D8; stroke-width: 1.5;" width="138" x="257" y="679.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="283.5" y="700.5918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="267" y="718.2734">GraphEmitter</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="296.5" y="733.1855">[Java/CDI]</text><!--MD5=[e25884bd7fe840786d881277a14c5a0e]
-entity 11--><rect fill="#85BBF0" height="66.5625" style="stroke: #78A8D8; stroke-width: 1.5;" width="224" x="430" y="679.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="499.5" y="700.5918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="204" x="440" y="718.2734">ImplicitIncludeManager</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="512.5" y="733.1855">[Java/CDI]</text><!--MD5=[2cd44814ab46f5e6a99045c6c67d7a1c]
-entity 13--><rect fill="#85BBF0" height="66.5625" style="stroke: #78A8D8; stroke-width: 1.5;" width="186" x="689" y="679.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="739.5" y="700.5918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="166" x="699" y="718.2734">SCMLinkGenerator</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="752.5" y="733.1855">[Java/CDI]</text><!--MD5=[719f049e567def7483c03ccc3af4ed75]
-entity 16--><rect fill="#85BBF0" height="66.5625" style="stroke: #78A8D8; stroke-width: 1.5;" width="193" x="910.5" y="679.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="964.5" y="700.5918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="173" x="920.5" y="718.2734">SCMReadmeReader</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="977.5" y="733.1855">[Java/CDI]</text><!--MD5=[604c8a276bea794422450a1868c0825f]
-entity 31--><rect fill="#85BBF0" height="148.0469" style="stroke: #78A8D8; stroke-width: 1.5;" width="220" x="1139" y="638.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="1206.5" y="660.0918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="189" x="1154.5" y="677.7734">adr-tickets-extractor</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="1209" y="692.6855">[maven,java]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1251" y="708.5107"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="1162.5" y="724.8076">Provides mechanisms to</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="1149" y="741.1045">initialize repository elements</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="1162" y="757.4014">AND include project ADR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="131" x="1183.5" y="773.6982">from GitHub issues</text><!--MD5=[6ae9e64c926d7c4a8b8de8471c7d0818]
-entity 35--><rect fill="#85BBF0" height="131.75" style="stroke: #78A8D8; stroke-width: 1.5;" width="211" x="795.5" y="341.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="858.5" y="363.0918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="180" x="811" y="380.7734">cdi-config-extension</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="861" y="395.6855">[maven,java]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="903" y="411.5107"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="187" x="805.5" y="427.8076">A module allowing as much</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="806.5" y="444.1045">informations as possible to</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="814.5" y="460.4014">be read from Maven POM</text><!--MD5=[33564e2724e6f3d19d2384e76137af5d]
-entity 25--><rect fill="#85BBF0" height="131.75" style="stroke: #78A8D8; stroke-width: 1.5;" width="192" x="280" y="951.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="333.5" y="973.0918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="172" x="290" y="990.7734">github-scm-handler</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="336" y="1005.6855">[maven,java]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="378" y="1021.5107"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="160" x="294" y="1037.8076">Allow github infos to be</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="310.5" y="1054.1045">included in project</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="105" x="323.5" y="1070.4014">documentation</text><!--MD5=[b6d0185b0422599d1d13f977d85ea789]
-entity 28--><rect fill="#85BBF0" height="99.1563" style="stroke: #78A8D8; stroke-width: 1.5;" width="184" x="700" y="968.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="749.5" y="989.5918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="164" x="710" y="1007.2734">gitlab-scm-handler</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="752" y="1022.1855">[maven,java]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="794" y="1038.0107"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="724.5" y="1054.3076">GitLab SCM Handler</text><!--MD5=[7d7fff5c4e2d078bc47ce8e56bf1fa25]
-entity 37--><rect fill="#85BBF0" height="117.7813" style="stroke: #78A8D8; stroke-width: 1.5;" width="176" x="1042" y="348.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="1087.5" y="370.0918">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="156" x="1052" y="387.7734">maven-metadata-</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="60" x="1100" y="406.3984">inferer</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="32" x="1114" y="421.3105">[null]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1132" y="437.1357"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="1060.5" y="453.4326">Enhanced by Maven</text><!--MD5=[f0494628cb4832af80f74d3b11eab2ea]
-link 15 to 17--><path d="M828.7726,162.9657 C800.718,178.5676 769.8956,199.1961 747,223.9531 C708.2972,265.8022 681.4238,326.5932 666.6063,366.686 " fill="none" id="15-&gt;17" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="663.8037,374.4169,669.3508,367.9185,663.71,365.8734,663.8037,374.4169" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="748" y="236.0918">Adds information to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="752.5" y="250.0605">initial architecture</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="780" y="264.0293">description</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="10" x="815" y="277.998">[]</text><!--MD5=[ef22a3871158166f190c22fa844a9fde]
-link 15 to 35--><path d="M901,163.0467 C901,205.1036 901,278.3537 901,333.8173 " fill="none" id="15-&gt;35" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="901,341.8656,904,333.8656,898,333.8656,901,341.8656" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="902" y="250.0918">Eases out some CDI</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="34" x="956.5" y="264.0605">code</text><!--MD5=[b4171235d688e82e0a1752fef04db678]
-link 15 to 37--><path d="M975.3422,163.0143 C1002.9303,178.3983 1032.6652,198.8588 1054,223.9531 C1082.5289,257.5092 1101.4875,303.2524 1113.3344,340.7341 " fill="none" id="15-&gt;37" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="1115.7554,348.5995,1116.2692,340.071,1110.5347,341.8361,1115.7554,348.5995" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="1116.5" y="243.0918">Infer most of</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="1090" y="257.0605">element details from</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="85" x="1121" y="271.0293">Maven infos</text><!--MD5=[f811753f587501b8ca6fb40827465db9]
-link 17 to 14--><path d="M545.8627,419.3152 C455.0597,433.5529 325.4023,465.2179 234,534.9531 C187.5046,570.4267 155.3459,631.1943 137.7857,671.7159 " fill="none" id="17-&gt;14" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="134.5725,679.2862,140.4597,673.0943,134.9367,670.75,134.5725,679.2862" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="235" y="554.0918">Collects documents</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="111" x="250.5" y="568.0605">in source folder</text><!--MD5=[76509359296d41a4be709772cc3c0768]
-link 17 to 12--><path d="M564.1824,441.4862 C516.951,462.7252 460.4514,493.965 420,534.9531 C381.3369,574.1292 354.6673,632.4757 339.868,671.5753 " fill="none" id="17-&gt;12" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="337.0664,679.1273,342.6616,672.6703,337.0363,670.5834,337.0664,679.1273" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="421" y="554.0918">Generates diagrams</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="135" x="428" y="568.0605">in PlantUML format</text><!--MD5=[f83c0348e0c1b870613adcaf8e50f878]
-link 17 to 11--><path d="M635.6798,441.5859 C623.0903,466.8471 606.1901,502.5243 594,534.9531 C576.7808,580.7604 561.677,634.9253 552.2472,671.3732 " fill="none" id="17-&gt;11" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="550.2065,679.3276,555.1004,672.3241,549.2886,670.8331,550.2065,679.3276" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="595" y="554.0918">Generates includes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="606" y="568.0605">for all enhancers</text><!--MD5=[a55c22d4fafc481dc7e5f650f62e3780]
-link 17 to 13--><path d="M682.0862,441.5754 C701.7536,465.9751 726.8172,500.6001 742,534.9531 C761.5812,579.2582 772.0423,634.153 777.2916,671.1733 " fill="none" id="17-&gt;13" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="778.3949,679.2538,780.2849,670.9215,774.3401,671.7333,778.3949,679.2538" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="758" y="554.0918">Generates links to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="780.5" y="568.0605">SCM sources</text><!--MD5=[4faede8610da334539d79ef9fb521656]
-link 17 to 16--><path d="M715.7666,441.543 C735.6109,452.042 757.6673,463.5867 778,473.9531 C832.7175,501.8501 856.9566,493.1998 902,534.9531 C943.5661,573.4831 973.815,632.2391 990.8865,671.5884 " fill="none" id="17-&gt;16" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="994.1246,679.1878,993.7485,670.6521,988.2287,673.0041,994.1246,679.1878" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="129" x="941" y="547.0918">Includes elements</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="939" y="561.0605">readme when they</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="34" x="990.5" y="575.0293">exist</text><!--MD5=[3f3206ed1c5ef24fe2c20bf3144a0cbe]
-link 17 to 31--><path d="M708.3604,441.6113 C729.5322,453.2852 754.2939,465.5415 778,473.9531 C909.1033,520.4722 963.6743,466.893 1085,534.9531 C1127.2624,558.661 1164.7288,597.1307 1193.1439,632.2515 " fill="none" id="17-&gt;31" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="1198.3434,638.766,1195.6978,630.642,1191.0083,634.3847,1198.3434,638.766" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="1143" y="554.0918">Produces ADR</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="1160.5" y="568.0605">reporting</text><!--MD5=[913b8c0714baac11c622a26df8e31d56]
-link 13 to 25--><path d="M742.5948,746.4617 C722.7106,761.464 697.4496,777.8039 672,786.9531 C571.6452,823.031 264.3522,766.0955 196,847.9531 C157.9433,893.5293 213.3646,939.4172 272.4651,972.0107 " fill="none" id="13-&gt;25" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="279.6846,975.9187,274.0773,969.4722,271.2211,974.7487,279.6846,975.9187" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="197" y="867.0918">Get project source</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="252" y="881.0605">link</text><!--MD5=[ca534aef03b76bb105f391aac187c6dd]
-link 13 to 28--><path d="M730.2969,746.5399 C685.1133,777.141 624.7819,821.4808 612,847.9531 C603.6903,865.1631 603.2058,873.9856 612,890.9531 C629.5887,924.8888 660.8779,951.6837 692.4897,971.7412 " fill="none" id="13-&gt;28" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="699.6619,976.1766,694.4358,969.4174,691.28,974.5204,699.6619,976.1766" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="613" y="867.0918">Get project source</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="668" y="881.0605">link</text><!--MD5=[313fa1b4944235881b19ecd640eba62f]
-link 16 to 25--><path d="M965.0127,746.5465 C944.4507,761.2821 918.6402,777.374 893,786.9531 C710.1209,855.2761 615.7076,732.8831 458,847.9531 C426.3768,871.0267 406.4109,909.5864 394.1089,944.1539 " fill="none" id="16-&gt;25" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="391.4475,951.92,396.879,945.3247,391.2031,943.3795,391.4475,951.92" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="137" x="459" y="874.0918">Get project readme</text><!--MD5=[d21dc8c33d08529b1e6ab826129feaf9]
-link 16 to 28--><path d="M955.9216,746.6532 C903.2862,781.8424 827.7028,833.8464 819,847.9531 C798.3732,881.3879 791.811,925.3133 790.3078,960.1381 " fill="none" id="16-&gt;28" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="790.0391,968.3281,793.2998,960.4308,787.303,960.2341,790.0391,968.3281" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="137" x="820" y="874.0918">Get project readme</text><!--MD5=[066873d008c36e200ffe51dc7ea6a1f5]
-link 31 to 25--><path d="M1138.8969,777.1094 C1132.8602,780.4696 1126.8657,783.7697 1121,786.9531 C1068.4164,815.4912 1048.5482,811.6402 1001,847.9531 C980.4951,863.6128 984.3418,878.0486 962,890.9531 C959.3657,892.4746 647.7955,959.5608 480.107,995.5977 " fill="none" id="31-&gt;25" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="472.2324,997.2898,480.6841,998.542,479.4235,992.6759,472.2324,997.2898" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="1010.5" y="860.0918">Read tickets from</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="141" x="1002" y="874.0605">GitHub if configured</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17" x="1066" y="888.0293">so</text><!--MD5=[330b23dce1c5d033bdb40fecd401cec3]
-link 31 to 28--><path d="M1224.953,787.1274 C1210.0744,822.78 1187.661,863.6008 1156,890.9531 C1081.2045,955.5697 971.5725,987.8984 892.1864,1003.6881 " fill="none" id="31-&gt;28" style="stroke: #666666; stroke-width: 3.0;"/><polygon fill="#666666" points="884.1169,1005.257,892.5424,1006.675,891.3973,1000.7853,884.1169,1005.257" style="stroke: #666666; stroke-width: 3.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="1198.5" y="860.0918">Read tickets from</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="135" x="1193" y="874.0605">Gitlab if configured</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17" x="1254" y="888.0293">so</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="284" x="554.5" y="1122.9482">Agile architecture base components view</text><!--MD5=[1541a9507c30742417480784026cf844]
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' contentScriptType='application/ecmascript' contentStyleType='text/css' height='1136px' preserveAspectRatio='none' style='width:1378px;height:1136px;' version='1.1' viewBox='0 0 1378 1136' width='1378px' zoomAndPan='magnify'>
+  <defs>
+    <style type='text/css'>
+      <![CDATA[path:hover { stroke: #ADFF2F !important;}]]>
+    </style>
+  </defs>
+  <g>
+    <text fill='#000000' font-family='sans-serif' font-size='18' lengthAdjust='spacingAndGlyphs' textLength='484' x='454.5' y='16.708'>
+      Agile architecture documentation - base - Components
+    </text>
+    <!--MD5=[6c92572c3f4e2a9cd136761fda995e3d]
+cluster 10_boundary-->
+    <rect fill='#FFFFFF' height='1055' style='stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;' width='1353' x='14' y='36.9531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='83' x='649' y='51.9482'>
+      «boundary»
+    </text>
+    <text fill='#444444' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='42' x='669.5' y='70.1016'>
+      base
+    </text>
+    <text fill='#444444' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='80' x='650.5' y='85.0137'>
+      [Container]
+    </text>
+    <!--MD5=[2cd44814ab46f5e6a99045c6c67d7a1c]
+entity 13-->
+    <rect fill='#85BBF0' height='66.5625' style='stroke: #78A8D8; stroke-width: 1.5;' width='328' x='737' y='95.9531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='858.5' y='117.0918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='308' x='747' y='134.7734'>
+      ArchitectureDocumentationBuilder
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='59' x='871.5' y='149.6855'>
+      [Java/CDI]
+    </text>
+    <!--MD5=[e25884bd7fe840786d881277a14c5a0e]
+entity 11-->
+    <rect fill='#85BBF0' height='66.5625' style='stroke: #78A8D8; stroke-width: 1.5;' width='214' x='546' y='374.4531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='610.5' y='395.5918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='194' x='556' y='413.2734'>
+      ArchitectureEnhancer
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='59' x='623.5' y='428.1855'>
+      [Java/CDI]
+    </text>
+    <!--MD5=[dc00b6f0bfcb3e33cce0c0c30000e56b]
+entity 17-->
+    <rect fill='#85BBF0' height='66.5625' style='stroke: #78A8D8; stroke-width: 1.5;' width='200' x='22' y='679.4531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='79.5' y='700.5918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='180' x='32' y='718.2734'>
+      DocumentsCollector
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='59' x='92.5' y='733.1855'>
+      [Java/CDI]
+    </text>
+    <!--MD5=[50c48f50f23c4505b4e1bf8eb0388b7a]
+entity 15-->
+    <rect fill='#85BBF0' height='66.5625' style='stroke: #78A8D8; stroke-width: 1.5;' width='138' x='257' y='679.4531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='283.5' y='700.5918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='118' x='267' y='718.2734'>
+      GraphEmitter
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='59' x='296.5' y='733.1855'>
+      [Java/CDI]
+    </text>
+    <!--MD5=[b289b39ced8dc6d267141842d8cb9775]
+entity 14-->
+    <rect fill='#85BBF0' height='66.5625' style='stroke: #78A8D8; stroke-width: 1.5;' width='224' x='430' y='679.4531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='499.5' y='700.5918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='204' x='440' y='718.2734'>
+      ImplicitIncludeManager
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='59' x='512.5' y='733.1855'>
+      [Java/CDI]
+    </text>
+    <!--MD5=[719f049e567def7483c03ccc3af4ed75]
+entity 16-->
+    <rect fill='#85BBF0' height='66.5625' style='stroke: #78A8D8; stroke-width: 1.5;' width='186' x='689' y='679.4531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='739.5' y='700.5918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='166' x='699' y='718.2734'>
+      SCMLinkGenerator
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='59' x='752.5' y='733.1855'>
+      [Java/CDI]
+    </text>
+    <!--MD5=[2e47fe9ff0124b653d7be087bd1c1ac2]
+entity 12-->
+    <rect fill='#85BBF0' height='66.5625' style='stroke: #78A8D8; stroke-width: 1.5;' width='193' x='910.5' y='679.4531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='964.5' y='700.5918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='173' x='920.5' y='718.2734'>
+      SCMReadmeReader
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='59' x='977.5' y='733.1855'>
+      [Java/CDI]
+    </text>
+    <!--MD5=[604c8a276bea794422450a1868c0825f]
+entity 31-->
+    <rect fill='#85BBF0' height='148.0469' style='stroke: #78A8D8; stroke-width: 1.5;' width='220' x='1139' y='638.9531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='1206.5' y='660.0918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='189' x='1154.5' y='677.7734'>
+      adr-tickets-extractor
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='80' x='1209' y='692.6855'>
+      [maven,java]
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='0' x='1251' y='708.5107'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='169' x='1162.5' y='724.8076'>
+      Provides mechanisms to
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='196' x='1149' y='741.1045'>
+      initialize repository elements
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='170' x='1162' y='757.4014'>
+      AND include project ADR
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='131' x='1183.5' y='773.6982'>
+      from GitHub issues
+    </text>
+    <!--MD5=[6ae9e64c926d7c4a8b8de8471c7d0818]
+entity 35-->
+    <rect fill='#85BBF0' height='131.75' style='stroke: #78A8D8; stroke-width: 1.5;' width='211' x='795.5' y='341.9531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='858.5' y='363.0918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='180' x='811' y='380.7734'>
+      cdi-config-extension
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='80' x='861' y='395.6855'>
+      [maven,java]
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='0' x='903' y='411.5107'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='187' x='805.5' y='427.8076'>
+      A module allowing as much
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='185' x='806.5' y='444.1045'>
+      informations as possible to
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='173' x='814.5' y='460.4014'>
+      be read from Maven POM
+    </text>
+    <!--MD5=[33564e2724e6f3d19d2384e76137af5d]
+entity 25-->
+    <rect fill='#85BBF0' height='131.75' style='stroke: #78A8D8; stroke-width: 1.5;' width='192' x='280' y='951.9531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='333.5' y='973.0918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='172' x='290' y='990.7734'>
+      github-scm-handler
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='80' x='336' y='1005.6855'>
+      [maven,java]
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='0' x='378' y='1021.5107'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='160' x='294' y='1037.8076'>
+      Allow github infos to be
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='127' x='310.5' y='1054.1045'>
+      included in project
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='105' x='323.5' y='1070.4014'>
+      documentation
+    </text>
+    <!--MD5=[b6d0185b0422599d1d13f977d85ea789]
+entity 28-->
+    <rect fill='#85BBF0' height='99.1563' style='stroke: #78A8D8; stroke-width: 1.5;' width='184' x='700' y='968.4531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='749.5' y='989.5918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='164' x='710' y='1007.2734'>
+      gitlab-scm-handler
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='80' x='752' y='1022.1855'>
+      [maven,java]
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='0' x='794' y='1038.0107'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='135' x='724.5' y='1054.3076'>
+      GitLab SCM Handler
+    </text>
+    <!--MD5=[7d7fff5c4e2d078bc47ce8e56bf1fa25]
+entity 37-->
+    <rect fill='#85BBF0' height='117.7813' style='stroke: #78A8D8; stroke-width: 1.5;' width='176' x='1042' y='348.9531'/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='85' x='1087.5' y='370.0918'>
+      «component»
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='156' x='1052' y='387.7734'>
+      maven-metadata-
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='60' x='1100' y='406.3984'>
+      inferer
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='32' x='1114' y='421.3105'>
+      [null]
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='0' x='1132' y='437.1357'/>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='139' x='1060.5' y='453.4326'>
+      Enhanced by Maven
+    </text>
+    <!--MD5=[3c21ad370ae764aa2cc0742c24a73756]
+link 13 to 11-->
+    <path d='M828.7726,162.9657 C800.718,178.5676 769.8956,199.1961 747,223.9531 C708.2972,265.8022 681.4238,326.5932 666.6063,366.686 ' fill='none' id='13-&gt;11' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='663.8037,374.4169,669.3508,367.9185,663.71,365.8734,663.8037,374.4169' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='140' x='748' y='236.0918'>
+      Adds information to
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='131' x='752.5' y='250.0605'>
+      initial architecture
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='80' x='780' y='264.0293'>
+      description
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='10' x='815' y='277.998'>
+      []
+    </text>
+    <!--MD5=[b9aace075c824a9f7cae1684a20a6595]
+link 13 to 35-->
+    <path d='M901,163.0467 C901,205.1036 901,278.3537 901,333.8173 ' fill='none' id='13-&gt;35' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='901,341.8656,904,333.8656,898,333.8656,901,341.8656' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='139' x='902' y='250.0918'>
+      Eases out some CDI
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='34' x='956.5' y='264.0605'>
+      code
+    </text>
+    <!--MD5=[f2cee5577968ade5b992d422d5c335b2]
+link 13 to 37-->
+    <path d='M975.3422,163.0143 C1002.9303,178.3983 1032.6652,198.8588 1054,223.9531 C1082.5289,257.5092 1101.4875,303.2524 1113.3344,340.7341 ' fill='none' id='13-&gt;37' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='1115.7554,348.5995,1116.2692,340.071,1110.5347,341.8361,1115.7554,348.5995' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='90' x='1116.5' y='243.0918'>
+      Infer most of
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='147' x='1090' y='257.0605'>
+      element details from
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='85' x='1121' y='271.0293'>
+      Maven infos
+    </text>
+    <!--MD5=[f435a654f1cca06ba06c9984b3a9ee2f]
+link 11 to 17-->
+    <path d='M545.8627,419.3152 C455.0597,433.5529 325.4023,465.2179 234,534.9531 C187.5046,570.4267 155.3459,631.1943 137.7857,671.7159 ' fill='none' id='11-&gt;17' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='134.5725,679.2862,140.4597,673.0943,134.9367,670.75,134.5725,679.2862' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='138' x='235' y='554.0918'>
+      Collects documents
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='111' x='250.5' y='568.0605'>
+      in source folder
+    </text>
+    <!--MD5=[8788da3c83f2dda68c2a782bef9ddc28]
+link 11 to 15-->
+    <path d='M564.1824,441.4862 C516.951,462.7252 460.4514,493.965 420,534.9531 C381.3369,574.1292 354.6673,632.4757 339.868,671.5753 ' fill='none' id='11-&gt;15' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='337.0664,679.1273,342.6616,672.6703,337.0363,670.5834,337.0664,679.1273' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='145' x='421' y='554.0918'>
+      Generates diagrams
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='135' x='428' y='568.0605'>
+      in PlantUML format
+    </text>
+    <!--MD5=[0955c5b0f861334d3399d7abf2a63ee8]
+link 11 to 14-->
+    <path d='M635.6798,441.5859 C623.0903,466.8471 606.1901,502.5243 594,534.9531 C576.7808,580.7604 561.677,634.9253 552.2472,671.3732 ' fill='none' id='11-&gt;14' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='550.2065,679.3276,555.1004,672.3241,549.2886,670.8331,550.2065,679.3276' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='138' x='595' y='554.0918'>
+      Generates includes
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='120' x='606' y='568.0605'>
+      for all enhancers
+    </text>
+    <!--MD5=[a62c74d6eb6d2a44db66242a64e93cd2]
+link 11 to 16-->
+    <path d='M682.0862,441.5754 C701.7536,465.9751 726.8172,500.6001 742,534.9531 C761.5812,579.2582 772.0423,634.153 777.2916,671.1733 ' fill='none' id='11-&gt;16' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='778.3949,679.2538,780.2849,670.9215,774.3401,671.7333,778.3949,679.2538' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='131' x='758' y='554.0918'>
+      Generates links to
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='90' x='780.5' y='568.0605'>
+      SCM sources
+    </text>
+    <!--MD5=[0a5a2d32bb972d30673e2f26c50a7526]
+link 11 to 12-->
+    <path d='M715.7666,441.543 C735.6109,452.042 757.6673,463.5867 778,473.9531 C832.7175,501.8501 856.9566,493.1998 902,534.9531 C943.5661,573.4831 973.815,632.2391 990.8865,671.5884 ' fill='none' id='11-&gt;12' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='994.1246,679.1878,993.7485,670.6521,988.2287,673.0041,994.1246,679.1878' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='129' x='941' y='547.0918'>
+      Includes elements
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='133' x='939' y='561.0605'>
+      readme when they
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='34' x='990.5' y='575.0293'>
+      exist
+    </text>
+    <!--MD5=[af180174aa3a28c0ddb572bd4df515af]
+link 11 to 31-->
+    <path d='M708.3604,441.6113 C729.5322,453.2852 754.2939,465.5415 778,473.9531 C909.1033,520.4722 963.6743,466.893 1085,534.9531 C1127.2624,558.661 1164.7288,597.1307 1193.1439,632.2515 ' fill='none' id='11-&gt;31' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='1198.3434,638.766,1195.6978,630.642,1191.0083,634.3847,1198.3434,638.766' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='98' x='1143' y='554.0918'>
+      Produces ADR
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='67' x='1160.5' y='568.0605'>
+      reporting
+    </text>
+    <!--MD5=[313fa1b4944235881b19ecd640eba62f]
+link 16 to 25-->
+    <path d='M742.5948,746.4617 C722.7106,761.464 697.4496,777.8039 672,786.9531 C571.6452,823.031 264.3522,766.0955 196,847.9531 C157.9433,893.5293 213.3646,939.4172 272.4651,972.0107 ' fill='none' id='16-&gt;25' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='279.6846,975.9187,274.0773,969.4722,271.2211,974.7487,279.6846,975.9187' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='131' x='197' y='867.0918'>
+      Get project source
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='25' x='252' y='881.0605'>
+      link
+    </text>
+    <!--MD5=[d21dc8c33d08529b1e6ab826129feaf9]
+link 16 to 28-->
+    <path d='M730.2969,746.5399 C685.1133,777.141 624.7819,821.4808 612,847.9531 C603.6903,865.1631 603.2058,873.9856 612,890.9531 C629.5887,924.8888 660.8779,951.6837 692.4897,971.7412 ' fill='none' id='16-&gt;28' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='699.6619,976.1766,694.4358,969.4174,691.28,974.5204,699.6619,976.1766' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='131' x='613' y='867.0918'>
+      Get project source
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='25' x='668' y='881.0605'>
+      link
+    </text>
+    <!--MD5=[92d88640321a8880b40b78c831a86d2b]
+link 12 to 25-->
+    <path d='M965.0127,746.5465 C944.4507,761.2821 918.6402,777.374 893,786.9531 C710.1209,855.2761 615.7076,732.8831 458,847.9531 C426.3768,871.0267 406.4109,909.5864 394.1089,944.1539 ' fill='none' id='12-&gt;25' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='391.4475,951.92,396.879,945.3247,391.2031,943.3795,391.4475,951.92' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='137' x='459' y='874.0918'>
+      Get project readme
+    </text>
+    <!--MD5=[c55c28e3a8868fa4d62747a81e634cb6]
+link 12 to 28-->
+    <path d='M955.9216,746.6532 C903.2862,781.8424 827.7028,833.8464 819,847.9531 C798.3732,881.3879 791.811,925.3133 790.3078,960.1381 ' fill='none' id='12-&gt;28' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='790.0391,968.3281,793.2998,960.4308,787.303,960.2341,790.0391,968.3281' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='137' x='820' y='874.0918'>
+      Get project readme
+    </text>
+    <!--MD5=[066873d008c36e200ffe51dc7ea6a1f5]
+link 31 to 25-->
+    <path d='M1138.8969,777.1094 C1132.8602,780.4696 1126.8657,783.7697 1121,786.9531 C1068.4164,815.4912 1048.5482,811.6402 1001,847.9531 C980.4951,863.6128 984.3418,878.0486 962,890.9531 C959.3657,892.4746 647.7955,959.5608 480.107,995.5977 ' fill='none' id='31-&gt;25' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='472.2324,997.2898,480.6841,998.542,479.4235,992.6759,472.2324,997.2898' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='124' x='1010.5' y='860.0918'>
+      Read tickets from
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='141' x='1002' y='874.0605'>
+      GitHub if configured
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='17' x='1066' y='888.0293'>
+      so
+    </text>
+    <!--MD5=[330b23dce1c5d033bdb40fecd401cec3]
+link 31 to 28-->
+    <path d='M1224.953,787.1274 C1210.0744,822.78 1187.661,863.6008 1156,890.9531 C1081.2045,955.5697 971.5725,987.8984 892.1864,1003.6881 ' fill='none' id='31-&gt;28' style='stroke: #666666; stroke-width: 3.0;'/>
+    <polygon fill='#666666' points='884.1169,1005.257,892.5424,1006.675,891.3973,1000.7853,884.1169,1005.257' style='stroke: #666666; stroke-width: 3.0;'/>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='124' x='1198.5' y='860.0918'>
+      Read tickets from
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='135' x='1193' y='874.0605'>
+      Gitlab if configured
+    </text>
+    <text fill='#666666' font-family='sans-serif' font-size='12' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='17' x='1254' y='888.0293'>
+      so
+    </text>
+    <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='284' x='554.5' y='1122.9482'>
+      Agile architecture base components view
+    </text>
+    <!--MD5=[b5ec39f21d4c4b6789749363615b08c6]
 @startuml(id=agile.architecture.base.components)
 
 
@@ -757,32 +1105,32 @@ skinparam {
   svgLinkTarget _parent
 }
 rectangle "==base\n<size:12>[Container]</size>" <<boundary>> as 10_boundary {
-  rectangle "==ArchitectureDocumentationBuilder\n//<size:12>[Java/CDI]</size>//" <<component>> as 15
-  rectangle "==ArchitectureEnhancer\n//<size:12>[Java/CDI]</size>//" <<component>> as 17
-  rectangle "==DocumentsCollector\n//<size:12>[Java/CDI]</size>//" <<component>> as 14
-  rectangle "==GraphEmitter\n//<size:12>[Java/CDI]</size>//" <<component>> as 12
-  rectangle "==ImplicitIncludeManager\n//<size:12>[Java/CDI]</size>//" <<component>> as 11
-  rectangle "==SCMLinkGenerator\n//<size:12>[Java/CDI]</size>//" <<component>> as 13
-  rectangle "==SCMReadmeReader\n//<size:12>[Java/CDI]</size>//" <<component>> as 16
+  rectangle "==ArchitectureDocumentationBuilder\n//<size:12>[Java/CDI]</size>//" <<component>> as 13
+  rectangle "==ArchitectureEnhancer\n//<size:12>[Java/CDI]</size>//" <<component>> as 11
+  rectangle "==DocumentsCollector\n//<size:12>[Java/CDI]</size>//" <<component>> as 17
+  rectangle "==GraphEmitter\n//<size:12>[Java/CDI]</size>//" <<component>> as 15
+  rectangle "==ImplicitIncludeManager\n//<size:12>[Java/CDI]</size>//" <<component>> as 14
+  rectangle "==SCMLinkGenerator\n//<size:12>[Java/CDI]</size>//" <<component>> as 16
+  rectangle "==SCMReadmeReader\n//<size:12>[Java/CDI]</size>//" <<component>> as 12
   rectangle "==adr-tickets-extractor\n//<size:12>[maven,java]</size>//\n\n Provides mechanisms to initialize repository elements AND include project ADR from GitHub issues" <<component>> as 31
   rectangle "==cdi-config-extension\n//<size:12>[maven,java]</size>//\n\n A module allowing as much informations as possible to be read from Maven POM" <<component>> as 35
   rectangle "==github-scm-handler\n//<size:12>[maven,java]</size>//\n\n Allow github infos to be included in project documentation" <<component>> as 25
   rectangle "==gitlab-scm-handler\n//<size:12>[maven,java]</size>//\n\n GitLab SCM Handler" <<component>> as 28
   rectangle "==maven-metadata-inferer\n//<size:12>[null]</size>//\n\n Enhanced by Maven" <<component>> as 37
 }
-15 -DOWN->> 17 : **Adds information to initial architecture description**\n//<size:12>[]</size>//
-15 -DOWN->> 35 : **Eases out some CDI code**
-15 -DOWN->> 37 : **Infer most of element details from Maven infos**
-17 -DOWN->> 14 : **Collects documents in source folder**
-17 -DOWN->> 12 : **Generates diagrams in PlantUML format**
-17 -DOWN->> 11 : **Generates includes for all enhancers**
-17 -DOWN->> 13 : **Generates links to SCM sources**
-17 -DOWN->> 16 : **Includes elements readme when they exist**
-17 -DOWN->> 31 : **Produces ADR reporting**
-13 -DOWN->> 25 : **Get project source link**
-13 -DOWN->> 28 : **Get project source link**
-16 -DOWN->> 25 : **Get project readme**
-16 -DOWN->> 28 : **Get project readme**
+13 -DOWN->> 11 : **Adds information to initial architecture description**\n//<size:12>[]</size>//
+13 -DOWN->> 35 : **Eases out some CDI code**
+13 -DOWN->> 37 : **Infer most of element details from Maven infos**
+11 -DOWN->> 17 : **Collects documents in source folder**
+11 -DOWN->> 15 : **Generates diagrams in PlantUML format**
+11 -DOWN->> 14 : **Generates includes for all enhancers**
+11 -DOWN->> 16 : **Generates links to SCM sources**
+11 -DOWN->> 12 : **Includes elements readme when they exist**
+11 -DOWN->> 31 : **Produces ADR reporting**
+16 -DOWN->> 25 : **Get project source link**
+16 -DOWN->> 28 : **Get project source link**
+12 -DOWN->> 25 : **Get project readme**
+12 -DOWN->> 28 : **Get project readme**
 31 -DOWN->> 25 : **Read tickets from GitHub if configured so**
 31 -DOWN->> 28 : **Read tickets from Gitlab if configured so**
 @enduml
@@ -796,4 +1144,6 @@ Operating System: Linux
 Default Encoding: UTF-8
 Language: en
 Country: null
---></g></svg>
+-->
+  </g>
+</svg>
