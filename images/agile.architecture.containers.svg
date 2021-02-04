@@ -12,7 +12,7 @@
     <!--MD5=[181ecb5732a103add92dfdd8bd327b0c]
 cluster 3_boundary-->
     <rect fill='#FFFFFF' height='460' style='stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;' width='417' x='14' y='261.9531'/>
-    <text fill='#000000' font-family='sans-serif' font-size='14' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='83' x='181' y='276.9482'>
+    <text fill='#000000' font-family='sans-serif' font-size='14' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='84' x='180.5' y='276.9482'>
       «boundary»
     </text>
     <text fill='#444444' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='297' x='74' y='295.1016'>
@@ -30,7 +30,7 @@ entity 6-->
     <text fill='#FFFFFF' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='90' x='87' y='359.7734'>
       archetype
     </text>
-    <text fill='#FFFFFF' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='118' x='73' y='374.6855'>
+    <text fill='#FFFFFF' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='119' x='72.5' y='374.6855'>
       [maven archetype]
     </text>
     <text fill='#FFFFFF' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='0' x='134' y='390.5107'/>
@@ -65,7 +65,7 @@ entity 10-->
     <text fill='#FFFFFF' font-family='sans-serif' font-size='16' font-weight='bold' lengthAdjust='spacingAndGlyphs' textLength='42' x='251' y='653.7734'>
       base
     </text>
-    <text fill='#FFFFFF' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='108' x='218' y='668.6855'>
+    <text fill='#FFFFFF' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='110' x='217' y='668.6855'>
       [Java executable]
     </text>
     <text fill='#FFFFFF' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='0' x='274' y='684.5107'/>
@@ -91,7 +91,7 @@ entity 8-->
     <!--MD5=[13c7745981a6abb6004f7738a8ca5078]
 entity 1-->
     <rect fill='#08427B' height='165.7813' style='stroke: #073B6F; stroke-width: 1.5;' width='220' x='127' y='28.9531'/>
-    <text fill='#FFFFFF' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='58' x='208' y='50.0918'>
+    <text fill='#FFFFFF' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='57' x='208.5' y='50.0918'>
       «person»
     </text>
     <image height='48' width='48' x='213' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=' y='52.9219'/>
@@ -111,7 +111,7 @@ entity 1-->
     <!--MD5=[773709cb2207c097691e7e7d3d2cc787]
 entity 2-->
     <rect fill='#08427B' height='165.7813' style='stroke: #073B6F; stroke-width: 1.5;' width='211' x='382.5' y='28.9531'/>
-    <text fill='#FFFFFF' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='58' x='459' y='50.0918'>
+    <text fill='#FFFFFF' font-family='sans-serif' font-size='12' font-style='italic' lengthAdjust='spacingAndGlyphs' textLength='57' x='459.5' y='50.0918'>
       «person»
     </text>
     <image height='48' width='48' x='464' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=' y='52.9219'/>
@@ -180,7 +180,7 @@ link 8 to 10-->
     <text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacingAndGlyphs' textLength='197' x='207.5' y='752.9482'>
       Agile architecture containers
     </text>
-    <!--MD5=[d7f0809cb22f591b8000361edbdb1fdf]
+    <!--MD5=[d1d9b28f7b22fd0ae620dee93de16af4]
 @startuml(id=agile.architecture.containers)
 
 
@@ -928,7 +928,7 @@ PlantUML version 1.2020.07(Sun Apr 19 11:42:40 UTC 2020)
 (GPL source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM
-Java Version: 11.0.9+11-LTS
+Java Version: 11.0.10+9-LTS
 Operating System: Linux
 Default Encoding: UTF-8
 Language: en
