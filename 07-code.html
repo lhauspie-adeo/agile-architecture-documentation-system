@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.12">
-<title>Agile Architecture Documentation System : System documentation generator</title>
+<title>Code</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -439,269 +439,23 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="book toc2 toc-left">
+<body class="article toc2 toc-left">
 <div id="header">
-<h1>Agile Architecture Documentation System : System documentation generator</h1>
+<h1>Code</h1>
 <div class="details">
 <span id="revnumber">version 0.0.12-SNAPSHOT,</span>
 <span id="revdate">2022-03-23T08:41:04Z</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#context">1. Context</a></li>
-<li><a href="#functional-overview">2. Functional Overview</a></li>
-<li><a href="#quality-attributes">3. Quality Attributes</a></li>
-<li><a href="#constraints">4. Constraints</a></li>
-<li><a href="#principles">5. Principles</a></li>
-<li><a href="#software-architecture">6. Software Architecture</a></li>
-<li><a href="#code">7. Code</a>
-<ul class="sectlevel3">
-<li><a href="#archetype">7.1. archetype</a>
-<ul class="sectlevel5">
-<li><a href="#install">Install</a></li>
-<li><a href="#usage">Usage</a></li>
-<li><a href="#developing">Developing</a></li>
-<li><a href="#architecture">Architecture</a></li>
-<li><a href="#author">Author</a></li>
-<li><a href="#contributing">🤝 Contributing</a></li>
-<li><a href="#show-your-support">Show your support</a></li>
-</ul>
-</li>
-<li><a href="#base">7.2. base</a>
-<ul class="sectlevel4">
-<li><a href="#agile-architecture-documentation-base">Agile architecture documentation base</a>
-<ul class="sectlevel5">
-<li><a href="#configuration">Configuration</a></li>
-<li><a href="#architectureenhancer">ArchitectureEnhancer</a></li>
-<li><a href="#organization-of-storage-in-enhancements_dir">Organization of storage in <code>${ENHANCEMENTS_DIR}</code></a></li>
-<li><a href="#enhancers">Enhancers</a></li>
-</ul>
-</li>
-<li><a href="#adr-tickets-extractor">adr-tickets-extractor</a>
-<ul class="sectlevel5">
-<li><a href="#adr-tickets-extractor-2">adr-tickets-extractor</a></li>
-<li><a href="#how-to-use">How to use</a></li>
-</ul>
-</li>
-<li><a href="#cdi-config-extension">cdi-config-extension</a>
-<ul class="sectlevel5">
-<li><a href="#maven-metadata-inferer">Maven metadata inferer</a></li>
-</ul>
-</li>
-<li><a href="#github-scm-handler">github-scm-handler</a>
-<ul class="sectlevel5">
-<li><a href="#github-scm-handler-2">github-scm-handler</a></li>
-</ul>
-</li>
-<li><a href="#gitlab-scm-handler">gitlab-scm-handler</a>
-<ul class="sectlevel5">
-<li><a href="#gitlab-scm-handler-2">gitlab-scm-handler</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#data">8. Data</a></li>
-<li><a href="#infrastructure-architecture">9. Infrastructure Architecture</a></li>
-<li><a href="#deployment">10. Deployment</a></li>
-<li><a href="#development-environment">11. Development Environment</a></li>
-<li><a href="#operation-and-support">12. Operation and Support</a></li>
-<li><a href="#decision-log">13. Decision Log</a>
 <ul class="sectlevel2">
-<li><a href="#use-adr-to-document-architecture-decisions">13.1. Use ADR to document architecture decisions</a></li>
-</ul>
-</li>
+<li><a href="#archetype">1. archetype</a></li>
+<li><a href="#base">2. base</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="context"><a class="anchor" href="#context"></a>1. Context</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Context" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>agile-architecture-documentation-system tries to provide a solution to a rather usual, but not so well solved, problem:
-how to document architecture of a software system with the minimal effort and the maximal result.
-As a consequence, this product tries to help the architect in all possible ways.
-== Context diagram</p>
-</div>
-<div class="imageblock kroki">
-<div class="content">
-<object type="image/svg+xml" data="https://kroki.io/plantuml/svg/eNq1kk1P3EAMhu_5Fe6edqVmo0JPlSoRLQiQlg9BEOIUzSYmme5kJrIdQlX1v9ezgRbUA6e9RPFrz_Pa4zliMSRD5-a2_n77kwW7VfCCz7JIPllfuaHGgRy0Ij1_yzIy47Kx0g6bgZGqWOplWYUu653xEZSy1M5ustXX9DpKdxfrrDMKJpWWvVbsA1y-dL1fA2M90j4tuj74eGZnsc4fru6K8v68OCvXJ6cnl8fzRZKIFYeQN1a_hqrWClYyEEIdqqHTw0Zs8JDCtE14uZikMv0uce7cwEJTVXgEE0npW1L6njSwaTBJeGt9b8h08CsB6I20Z-EJaRVcIDglRP-AzoVRkzlRGIvWVluPzHCoEj81a-u3haEGBUoFKT_5nVwjcfDzL59hlr-2MNOgaN9MB4ZBUJ25IrtBsBpqfiTNUpxBWpW0vzoG77pfzhavHgeKvRWzxTa4Gim65M5BT-FH9OB_KVZrBEKz-_-QP130_DACP1jLNJrCODzKGF142lKD-rKM4DTZfxY36MrjeEvR5D7OzX_Vg0m90XZVO0Jf6-P5Awb-X-Q="><span class="alt">SystemContext</span></object>
-</div>
-</div>
-<div class="paragraph">
-<p>We identify different user profiles:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>the architect as a scribe role, which is responsible for maintaining a correct documentation of the architecture</p>
-</li>
-<li>
-<p>the various stakeholders, be them developers, product owners, ops teams, and so on, which will refer to the produced documentation as an entrypoint.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="functional-overview"><a class="anchor" href="#functional-overview"></a>2. Functional Overview</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Functional%20Overview" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>This software helps the architect writing a coherent, complete and readable software architecture documentation.
-Usage of this software is quite simple (for a developer).</p>
-</div>
-<div class="paragraph">
-<p>The first step is to initiate a documentation (which is documented in <a href="https://github.com/Riduidel/agile-architecture-documentation-system#install">README.md</a>).</p>
-</div>
-<div class="paragraph">
-<p>Then, architect has to write content in all <code>.adoc</code> files generated in <code>src/docs/asciidoc</code>.
-Notice writing those files will be eased out by using the <code>Architecture</code> java class to generate diagrams,
-and the enhancers this project provides.</p>
-</div>
-<div class="paragraph">
-<p>The enhancers allows architect to have content added to this documentation without having to write it himself.
-Typically, we&#8217;re able to include README documents, architecture decisions, and more to come later &#8230;&#8203; (well, provided the users ask for additionnal includes)</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="quality-attributes"><a class="anchor" href="#quality-attributes"></a>3. Quality Attributes</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Quality%20Attributes" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>The documentation build should be fast enough to allow architect to write its documentation
-and have it reloaded in "human real time".
-In other words, we expect
-a simple documentation to generate in less than 10 seconds
-and
-a complex documentation (involving reading configuration from remote systems and so on) to generate in less than 1 minute.
-<strong>TODO</strong></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="constraints"><a class="anchor" href="#constraints"></a>4. Constraints</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Constraints" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p><strong>TODO</strong></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="principles"><a class="anchor" href="#principles"></a>5. Principles</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Principles" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Architecture model must be totally described in the Architecture class.</p>
-</li>
-<li>
-<p>Additional architecture information (typically, location of README files for components) has to be set has properties in the various Structurizr <code>Element</code> subclasses (<code>SoftwareSystem</code>, <code>Container</code>, <code>Component</code>)</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="software-architecture"><a class="anchor" href="#software-architecture"></a>6. Software Architecture</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Software%20Architecture" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="imageblock kroki">
-<div class="content">
-<object type="image/svg+xml" data="https://kroki.io/plantuml/svg/eNq1VMFu2zAMvfsruJ4SoHXWdRi2AQOapFuLoQWKNTvsFNA2Y2uRJYOSkgbD_n2U2jhJ0aGn3iySeu_pPcnnziP70OqBqr5grTTlyGWjPJU-MOWlNR6VIXbD7I0ypQ4VBdbQeN-5z6MR4zqvlW9CERxxnCbjZVc76jSaCHzifKVVMZq-P7mNpZ8316MWnSeWUt7JxGsAz6dxx71_XYLkzGtStJ01cU-iyDKvvCYYx5hgPyaobBlaGUSvrIET6MW5rMQuFZ_ZtQs3y9xSmQ4ZW_iTAXTomyu7Ip5abRkumcj8Iq3tWppjZrueNapcGnIOzqTkVvW1MssZck0e5gIkYrK_2a1gWzM4PYaj8Zb5SBazZk8KoANPwuxKVgWBkqX01yxdBruQlZREXxUXB0fNj4ZbjncCe-dxSY3VFXFkGWsNHdvfkcPtWk6oCZgwfb-If7eRPNr5xAZTIW8GZ_Pi8fP4xSiGyc0-jcEHURWnyW86ihJbXJGBg9JXdEpvoBSBPmW0UHXgh2S97fFhYwP3x1vLNXs4xw5reEB99ilyu1IpQYg8N4m606FWJrn12BMSq5Wpn-w_fSszBbqk8TuuEOieyuCx0Kk0kRa0tgpiSEULZQQi5bhCVjY4kDdQgZI3wAssyR0DiuHOtjJBvIntRdCg2k5T7597IuLj1rLdAYqgdJU0P1sbyi38QXp-ES9htH9irXeesQMUaVpVWw9ltB-MPJckjBKBO4y0H5OZ5Ol_5uKtDi66A_FHJCeHq5k879uLb6M8z_dhkrV7MApreYguGbRNDB7_L9GRczKV_BD-AWphBEU="><span class="alt">agile.architecture.containers</span></object>
-</div>
-</div>
-<div class="imageblock kroki">
-<div class="content">
-<object type="image/svg+xml" data="https://kroki.io/plantuml/svg/eNq1VU1vGkkQvc-vqPXJljywNnFiRVopBCziVdhYTnLICTXTBdNxf4y6eiBOlP--1T0DZoizWFr5wgxNvarXVfUebygIH2qjj5X8SyyVxp7wRakCFqH22JsLwl7hTOUs2kAn2R_KFrqWWHsNZQgVve73vVj3liqU9bwm9IWzgWMjql9pYWP2nILUat4fvchv4tHn6fu-ERTQ81Gv4ojnSDwbRcS38LwFhLLon7NE2_ymRJYFFTTCMM4KdmcF0hW14UARlLOQQ5wdP7YJKCtElX57BJyCHwYNK4XrLKM7ZSvhhYEfGUAlQvnOrdCPnHYeJh7RfkGt3Zp_HHrv1p9KVdxZJIIBH9Fq-V7Zu0_CLzHAjBNx6uxntu3a7K2rrRT-_vjsz9m8fT9NXE5SxS3347PBKRwNdxiPd2_7tlZaoj_imL_FSvRH4-v4fnTSzfFqL8eVLYUtDuNe8tmmHvHlNcPdQdQLPpt4UZVXRoVwuMo5n12bSqtChetmkabCiuVh5BmffRxNY7MnyH0VT2B30WBuUUiD8fNgmUEsI6TPAw8ZA-UsLS82nfjKwFMjVmjjtxvvVkoigcGCe6zIEAQHyqqghFbfETxWjhSD7wE1ps7C8J8xtBKCyruv3GYYjm9h4Z2BiQrv6jkoohppn1q8TSFVzvpaqGVkhpZ4MX5lNgTjZB3XPy6usksQzLIuSq68cN6kfaJ4yPxIzTmSic8jYSEbJtOYC24-TPdYnEcWjdZzKkzOF5caH-nOMJaGJjKVpbZGe3nJL9sGdGS9X_GyqajFUyty5P-qOIgaSmlzg0FIEUTO-dA3VW2tdXy2ypIwv2_axWl-ZreoZ-Mk5UaKUtJu13c2ZM_ZkAqvkne1e_mQKY3-ih2DwNUByBkE3l_2MondwFjyOlLlDaAAbrFZPM7PfqRpd7qpRw94xiYXaMVP2x7FC3DR2hcIC5dMqANKJtBokhlKJZbspgm08Xpo7t-FnXdg7ZAohsa9BWyNa4_hWQel2Q7SmFnmLcW9-IvUkTb3VoU-WQKsS25DKJH1-U1Rl1-yAta4rDlnkmiUsw8sp4c4jkmKmLD5b1ar7VSk1g28fErgxSMZG7bdmMv_jhlsmEXbg9bNuiazgMZJePskc-lCL38HTeL6FfoGreT_7n8BNdEkrw=="><span class="alt">agile.architecture.base.components</span></object>
-</div>
-</div>
-<div class="paragraph">
-<p><strong>TODO</strong></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="code"><a class="anchor" href="#code"></a>7. Code</h2>
+<div id="preamble">
 <div class="sectionbody">
 <div class="admonitionblock tip">
 <table>
@@ -716,8 +470,10 @@ If you encounter any error, feel free to
 </tr>
 </table>
 </div>
-<div class="sect3">
-<h4 id="archetype"><a class="anchor" href="#archetype"></a>7.1. archetype</h4>
+</div>
+</div>
+<div class="sect2">
+<h3 id="archetype"><a class="anchor" href="#archetype"></a>1. archetype</h3>
 <div class="paragraph">
 <p><a href="https://github.com/Riduidel/agile-architecture-documentation-system.git/blob/master/">See on <span class="icon"><i class="fa fa-github"></i></span> GitHub</a></p>
 </div>
@@ -728,8 +484,8 @@ If you encounter any error, feel free to
 </div>
 </blockquote>
 </div>
-<div class="sect5">
-<h6 id="install"><a class="anchor" href="#install"></a>Install</h6>
+<div class="sect4">
+<h5 id="install"><a class="anchor" href="#install"></a>Install</h5>
 <div class="paragraph">
 <p>You can use the archetype by running this maven-friendly 😅command.
 Don&#8217;t forget to replace <code>${VERSION}</code> by <span class="image"><img src="https://badge.fury.io/gh/Riduidel%2Fagile-architecture-documentation-system.svg" alt="GitHub version"></span></p>
@@ -744,14 +500,14 @@ Don&#8217;t forget to replace <code>${VERSION}</code> by <span class="image"><im
 Finally, don&#8217;t forget to replace the value of <code>agile-architecture-version</code> maven property by <span class="image"><img src="https://badge.fury.io/gh/Riduidel%2Fagile-architecture-documentation-system.svg" alt="GitHub version"></span></p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="usage"><a class="anchor" href="#usage"></a>Usage</h6>
+<div class="sect4">
+<h5 id="usage"><a class="anchor" href="#usage"></a>Usage</h5>
 <div class="paragraph">
 <p>Once the archetype has been run, you&#8217;ll have a project with Structurizr compatible source in <code>src/main/java</code>
 and asciidoc files following Agile architecture documentation template in <code>src/docs/asciidoc</code>.</p>
 </div>
-<div class="sect6">
-<h7 id="generating-architecture-documentation"><a class="anchor" href="#generating-architecture-documentation"></a>Generating architecture documentation</h7>
+<div class="sect5">
+<h6 id="generating-architecture-documentation"><a class="anchor" href="#generating-architecture-documentation"></a>Generating architecture documentation</h6>
 <div class="paragraph">
 <p>Running <code>mvn install</code> will</p>
 </div>
@@ -766,8 +522,8 @@ and asciidoc files following Agile architecture documentation template in <code>
 </ol>
 </div>
 </div>
-<div class="sect6">
-<h7 id="using-the-archetype-at-100"><a class="anchor" href="#using-the-archetype-at-100"></a>Using the archetype at 100%</h7>
+<div class="sect5">
+<h6 id="using-the-archetype-at-100"><a class="anchor" href="#using-the-archetype-at-100"></a>Using the archetype at 100%</h6>
 <div class="paragraph">
 <p>The archetype contains two Java classes.</p>
 </div>
@@ -783,8 +539,8 @@ This is where you should put all the systems, containers, components that are di
 </ol>
 </div>
 </div>
-<div class="sect6">
-<h7 id="faster-edit-loop"><a class="anchor" href="#faster-edit-loop"></a>Faster edit loop</h7>
+<div class="sect5">
+<h6 id="faster-edit-loop"><a class="anchor" href="#faster-edit-loop"></a>Faster edit loop</h6>
 <div class="paragraph">
 <p>A faster developer feedback loop can be achieved using the <a href="https://github.com/fizzed/maven-plugins">fizzed-watcher-maven-plugin</a>.
 Don&#8217;t worry, you don&#8217;t have to configure it by yourself!
@@ -799,8 +555,8 @@ Visit <a href="http://localhost:35729/slides/html/" class="bare">http://localhos
 <p>If you have installed the <a href="http://livereload.com/extensions/">livereload browser extension</a> (but not the livereload desktop application, which job is handled by the maven build), any change in the project will be immedialety visible in browser, allowing you to work in a pleasant environment (well, I hope)</p>
 </div>
 </div>
-<div class="sect6">
-<h7 id="best-practices"><a class="anchor" href="#best-practices"></a>Best practices</h7>
+<div class="sect5">
+<h6 id="best-practices"><a class="anchor" href="#best-practices"></a>Best practices</h6>
 <div class="ulist">
 <ul>
 <li>
@@ -813,8 +569,8 @@ Then use available extension points (provided by CDI) to add additional infos.</
 </li>
 </ul>
 </div>
-<div class="sect7">
-<h8 id="describeextendgenerate"><a class="anchor" href="#describeextendgenerate"></a>describe=&gt;extend=&gt;generate</h8>
+<div class="sect6">
+<h7 id="describeextendgenerate"><a class="anchor" href="#describeextendgenerate"></a>describe=&gt;extend=&gt;generate</h7>
 <div class="paragraph">
 <p>What are we talking about here ?
 In fact, the simplest way to have a good model, from what we&#8217;ve already tested, is to</p>
@@ -833,8 +589,8 @@ In fact, the simplest way to have a good model, from what we&#8217;ve already te
 </ol>
 </div>
 </div>
-<div class="sect7">
-<h8 id="writing-an-enhancer"><a class="anchor" href="#writing-an-enhancer"></a>Writing an Enhancer</h8>
+<div class="sect6">
+<h7 id="writing-an-enhancer"><a class="anchor" href="#writing-an-enhancer"></a>Writing an Enhancer</h7>
 <div class="paragraph">
 <p>Since we&#8217;re talking about the <code>Enhancer</code> interface, this is the main interface allowing us to have an extendable architecture model.
 So how to write an <code>Enhancer</code> ?
@@ -849,16 +605,16 @@ Don&#8217;t forget to take a look at the <code>isParallel()</code> method, which
 </div>
 </div>
 </div>
-<div class="sect5">
-<h6 id="developing"><a class="anchor" href="#developing"></a>Developing</h6>
+<div class="sect4">
+<h5 id="developing"><a class="anchor" href="#developing"></a>Developing</h5>
 <div class="paragraph">
 <p>There are not many things to do (except improving the archetype source).
 However, if you want to improve things,
 please run <code>mvn verify</code> which will create a project from the archetype and
 run <code>mvn package</code> which will trigger Java class compilation and run and Asciidoc documentation generation.</p>
 </div>
-<div class="sect6">
-<h7 id="releasing"><a class="anchor" href="#releasing"></a>Releasing</h7>
+<div class="sect5">
+<h6 id="releasing"><a class="anchor" href="#releasing"></a>Releasing</h6>
 <div class="paragraph">
 <p>Can be performed only on a machine having Nicolas Delsaux GPG key allowing to sign to maven central (not yet enabled on GitHub).</p>
 </div>
@@ -867,14 +623,14 @@ run <code>mvn package</code> which will trigger Java class compilation and run a
 </div>
 </div>
 </div>
-<div class="sect5">
-<h6 id="architecture"><a class="anchor" href="#architecture"></a>Architecture</h6>
+<div class="sect4">
+<h5 id="architecture"><a class="anchor" href="#architecture"></a>Architecture</h5>
 <div class="paragraph">
 <p>Way more details are available in the <a href="https://riduidel.github.io/agile-architecture-documentation-system/">"architecture documentation (which uses this system, obviously)"</a>.</p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="author"><a class="anchor" href="#author"></a>Author</h6>
+<div class="sect4">
+<h5 id="author"><a class="anchor" href="#author"></a>Author</h5>
 <div class="paragraph">
 <p>👤 <strong>Nicolas Delsaux</strong></p>
 </div>
@@ -889,14 +645,14 @@ run <code>mvn package</code> which will trigger Java class compilation and run a
 </ul>
 </div>
 </div>
-<div class="sect5">
-<h6 id="contributing"><a class="anchor" href="#contributing"></a>🤝 Contributing</h6>
+<div class="sect4">
+<h5 id="contributing"><a class="anchor" href="#contributing"></a>🤝 Contributing</h5>
 <div class="paragraph">
 <p>Contributions, issues and feature requests are welcome!&lt;br /&gt;Feel free to check <a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues">issues page</a>.</p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="show-your-support"><a class="anchor" href="#show-your-support"></a>Show your support</h6>
+<div class="sect4">
+<h5 id="show-your-support"><a class="anchor" href="#show-your-support"></a>Show your support</h5>
 <div class="paragraph">
 <p>Give a ⭐️ if this project helped you!</p>
 </div>
@@ -906,13 +662,13 @@ run <code>mvn package</code> which will trigger Java class compilation and run a
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="base"><a class="anchor" href="#base"></a>7.2. base</h4>
+<div class="sect2">
+<h3 id="base"><a class="anchor" href="#base"></a>2. base</h3>
 <div class="paragraph">
 <p><a href="https://github.com/Riduidel/agile-architecture-documentation-system.git/blob/master/base">See on <span class="icon"><i class="fa fa-github"></i></span> GitHub</a></p>
 </div>
-<div class="sect4">
-<h5 id="agile-architecture-documentation-base"><a class="anchor" href="#agile-architecture-documentation-base"></a>Agile architecture documentation base</h5>
+<div class="sect3">
+<h4 id="agile-architecture-documentation-base"><a class="anchor" href="#agile-architecture-documentation-base"></a>2.1. Agile architecture documentation base</h4>
 <div class="paragraph">
 <p>Agile architecture documentation base is the workhorse of this architecture tooling.</p>
 </div>
@@ -924,28 +680,28 @@ before to finally write diagrams and asciidoc documents in output folder.</p>
 <div class="paragraph">
 <p>Various components are available to enhance generated documentation.</p>
 </div>
-<div class="sect5">
-<h6 id="configuration"><a class="anchor" href="#configuration"></a>Configuration</h6>
+<div class="sect4">
+<h5 id="configuration"><a class="anchor" href="#configuration"></a>Configuration</h5>
 <div class="paragraph">
 <p>There are two types of configuration available for this project.</p>
 </div>
-<div class="sect6">
-<h7 id="system-properties"><a class="anchor" href="#system-properties"></a>System properties</h7>
+<div class="sect5">
+<h6 id="system-properties"><a class="anchor" href="#system-properties"></a>System properties</h6>
 <div class="paragraph">
 <p>Global configuration is set via system property given on command-line (see in pom for examples).
 Typical examples are the <code>force</code> flag, or output folder.</p>
 </div>
 </div>
-<div class="sect6">
-<h7 id="model-element-properties"><a class="anchor" href="#model-element-properties"></a>Model element properties</h7>
+<div class="sect5">
+<h6 id="model-element-properties"><a class="anchor" href="#model-element-properties"></a>Model element properties</h6>
 <div class="paragraph">
 <p>Each structurizr model element can receive additional properties in Java code, through calls to <code>Element#addProperty(key, value)</code>.
 This configuration mode is to be used for each element requiring specific configuration (typically, SCM address is configured this way).</p>
 </div>
 </div>
 </div>
-<div class="sect5">
-<h6 id="architectureenhancer"><a class="anchor" href="#architectureenhancer"></a>ArchitectureEnhancer</h6>
+<div class="sect4">
+<h5 id="architectureenhancer"><a class="anchor" href="#architectureenhancer"></a>ArchitectureEnhancer</h5>
 <div class="paragraph">
 <p>This class will run all model and views enhancers, and is used to define the folder in which data is stored.
 This storage folder (referenced in this document as <code>${ENHANCEMENTS_DIR}</code>) is configured by the <code>agile.architecture.enhancements</code> which uses DeltaSpike configuration loading mechanism and has no default value in code, but one is set in pom generated from archetype (value is <code>${agile.architecture.output.enhancements}</code> maven property, which resolves to <code>target/structurizr/enhancements</code>).</p>
@@ -954,8 +710,8 @@ This storage folder (referenced in this document as <code>${ENHANCEMENTS_DIR}</c
 <p>When available, all components configuration properties are mentionned in this document.</p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="organization-of-storage-in-enhancements_dir"><a class="anchor" href="#organization-of-storage-in-enhancements_dir"></a>Organization of storage in <code>${ENHANCEMENTS_DIR}</code></h6>
+<div class="sect4">
+<h5 id="organization-of-storage-in-enhancements_dir"><a class="anchor" href="#organization-of-storage-in-enhancements_dir"></a>Organization of storage in <code>${ENHANCEMENTS_DIR}</code></h5>
 <div class="paragraph">
 <p>TO have things reasonably sorted, we generate the following structure in <code>${ENHANCEMENTS_DIR}</code> depending upon three elements</p>
 </div>
@@ -976,14 +732,14 @@ This storage folder (referenced in this document as <code>${ENHANCEMENTS_DIR}</c
 <p>This organization is enforced by the OutputBuidler interface in this module, which only implementation is <code>ArchitectureEnhancer</code>.</p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="enhancers"><a class="anchor" href="#enhancers"></a>Enhancers</h6>
+<div class="sect4">
+<h5 id="enhancers"><a class="anchor" href="#enhancers"></a>Enhancers</h5>
 <div class="paragraph">
 <p>Then come the turn of the various enhancers, which will add various elements.
 They&#8217;re described here in the order defined by the `Enhancer#priority()| method.</p>
 </div>
-<div class="sect6">
-<h7 id="implicitincludemanager"><a class="anchor" href="#implicitincludemanager"></a>ImplicitIncludeManager</h7>
+<div class="sect5">
+<h6 id="implicitincludemanager"><a class="anchor" href="#implicitincludemanager"></a>ImplicitIncludeManager</h6>
 <div class="paragraph">
 <p>This folder will look for files defined in each section associated content folder.
 THis content folder is defined by concatenating <code>asciidoc.source.dir</code> configuration property (which resolves to <code>src/docs/asciidoc</code>) and the section folder name (which is <code>${section_number}_${section_name}</code>, exactly like file names).
@@ -996,21 +752,21 @@ For each folder having content, a file will be generated in <code>${ENHANCEMENTS
 <p>This behaviour cannot be deactivated.</p>
 </div>
 </div>
-<div class="sect6">
-<h7 id="scmlinkgenerator"><a class="anchor" href="#scmlinkgenerator"></a>SCMLinkGenerator</h7>
+<div class="sect5">
+<h6 id="scmlinkgenerator"><a class="anchor" href="#scmlinkgenerator"></a>SCMLinkGenerator</h6>
 <div class="paragraph">
 <p>This component will generate a link to the SCM repository containing the structurizr element code. It makes use of any implementation of <code>SCMHandler</code> that is present in CLASSPATH to load the file.</p>
 </div>
+<div class="sect6">
+<h7 id="configuration-2"><a class="anchor" href="#configuration-2"></a>Configuration</h7>
 <div class="sect7">
-<h8 id="configuration-2"><a class="anchor" href="#configuration-2"></a>Configuration</h8>
-<div class="sect8">
-<h9 id="system-properties-2"><a class="anchor" href="#system-properties-2"></a>System properties</h9>
+<h8 id="system-properties-2"><a class="anchor" href="#system-properties-2"></a>System properties</h8>
 <div class="paragraph">
 <p>The component can be forced to rewrite the generated file by the common <code>force</code> flag.</p>
 </div>
 </div>
-<div class="sect8">
-<h9 id="model-element-configuration"><a class="anchor" href="#model-element-configuration"></a>Model element configuration</h9>
+<div class="sect7">
+<h8 id="model-element-configuration"><a class="anchor" href="#model-element-configuration"></a>Model element configuration</h8>
 <div class="paragraph">
 <p>This component is activated only for model element having a value for the <code>agile.architecture.scm.project</code> property.
 additionally, path to element in repository can be configured with the <code>agile.architecture.scm.path</code> property, also to define in Architure class.</p>
@@ -1018,8 +774,8 @@ additionally, path to element in repository can be configured with the <code>agi
 </div>
 </div>
 </div>
-<div class="sect6">
-<h7 id="scmreadmereader"><a class="anchor" href="#scmreadmereader"></a>SCMReadmeReader</h7>
+<div class="sect5">
+<h6 id="scmreadmereader"><a class="anchor" href="#scmreadmereader"></a>SCMReadmeReader</h6>
 <div class="paragraph">
 <p>This component will include the Readme of any model element for which the <code>agile.architecture.scm.project</code> property is defined.</p>
 </div>
@@ -1029,16 +785,16 @@ additionally, path to element in repository can be configured with the <code>agi
 <div class="paragraph">
 <p>Notice that links will not be rewritten, so avoid relative links.</p>
 </div>
+<div class="sect6">
+<h7 id="configuration-3"><a class="anchor" href="#configuration-3"></a>Configuration</h7>
 <div class="sect7">
-<h8 id="configuration-3"><a class="anchor" href="#configuration-3"></a>Configuration</h8>
-<div class="sect8">
-<h9 id="system-properties-3"><a class="anchor" href="#system-properties-3"></a>System properties</h9>
+<h8 id="system-properties-3"><a class="anchor" href="#system-properties-3"></a>System properties</h8>
 <div class="paragraph">
 <p>The component can be forced to rewrite the generated file by the common <code>force</code> flag.</p>
 </div>
 </div>
-<div class="sect8">
-<h9 id="model-element-configuration-2"><a class="anchor" href="#model-element-configuration-2"></a>Model element configuration</h9>
+<div class="sect7">
+<h8 id="model-element-configuration-2"><a class="anchor" href="#model-element-configuration-2"></a>Model element configuration</h8>
 <div class="paragraph">
 <p>This component is activated only for model element having a value for the <code>agile.architecture.scm.project</code> property.
 Additionally, path to element in repository can be configured with the <code>agile.architecture.scm.path</code> property, also to define in Architure class.
@@ -1047,21 +803,21 @@ And readme name can be configured by setting the <code>agile.architecture.scm.re
 </div>
 </div>
 </div>
-<div class="sect6">
-<h7 id="documentscollector"><a class="anchor" href="#documentscollector"></a>DocumentsCollector</h7>
+<div class="sect5">
+<h6 id="documentscollector"><a class="anchor" href="#documentscollector"></a>DocumentsCollector</h6>
 <div class="paragraph">
 <p>This component is an internal none, that will collect all files in <code>${ENHANCEMENTS_DIR}</code> and includes them in the good sections.</p>
 </div>
 </div>
-<div class="sect6">
-<h7 id="graphemitter"><a class="anchor" href="#graphemitter"></a>GraphEmitter</h7>
+<div class="sect5">
+<h6 id="graphemitter"><a class="anchor" href="#graphemitter"></a>GraphEmitter</h6>
 <div class="paragraph">
 <p>This component generates all the diagrams defined in Architecture class.</p>
 </div>
+<div class="sect6">
+<h7 id="configuration-4"><a class="anchor" href="#configuration-4"></a>Configuration</h7>
 <div class="sect7">
-<h8 id="configuration-4"><a class="anchor" href="#configuration-4"></a>Configuration</h8>
-<div class="sect8">
-<h9 id="system-properties-4"><a class="anchor" href="#system-properties-4"></a>System properties</h9>
+<h8 id="system-properties-4"><a class="anchor" href="#system-properties-4"></a>System properties</h8>
 <div class="paragraph">
 <p>The component can be forced to rewrite the generated files by the common <code>force</code> flag.</p>
 </div>
@@ -1073,13 +829,13 @@ And readme name can be configured by setting the <code>agile.architecture.scm.re
 </div>
 </div>
 </div>
-<div class="sect4">
-<h5 id="adr-tickets-extractor"><a class="anchor" href="#adr-tickets-extractor"></a>adr-tickets-extractor</h5>
+<div class="sect3">
+<h4 id="adr-tickets-extractor"><a class="anchor" href="#adr-tickets-extractor"></a>2.2. adr-tickets-extractor</h4>
 <div class="paragraph">
 <p><a href="https://github.com/Riduidel/agile-architecture-documentation-system.git/blob/master/adr-tickets-extractor">See on <span class="icon"><i class="fa fa-github"></i></span> GitHub</a></p>
 </div>
-<div class="sect5">
-<h6 id="adr-tickets-extractor-2"><a class="anchor" href="#adr-tickets-extractor-2"></a>adr-tickets-extractor</h6>
+<div class="sect4">
+<h5 id="adr-tickets-extractor-2"><a class="anchor" href="#adr-tickets-extractor-2"></a>adr-tickets-extractor</h5>
 <div class="paragraph">
 <p>This module provides tooling for extracting architecture decisions from an issue tracker configured for each requiring structurizr element.</p>
 </div>
@@ -1090,8 +846,8 @@ As a consequence, it is way more efficient to use issue trackers
 and have the issue tracker content emitted as documentation.</p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="how-to-use"><a class="anchor" href="#how-to-use"></a>How to use</h6>
+<div class="sect4">
+<h5 id="how-to-use"><a class="anchor" href="#how-to-use"></a>How to use</h5>
 <div class="paragraph">
 <p>This is exposed in <a href="https://github.com/Riduidel/agile-architecture-documentation-example/">agile architecture documentation example</a>.</p>
 </div>
@@ -1132,26 +888,26 @@ and have the issue tracker content emitted as documentation.</p>
 </div>
 </div>
 </div>
-<div class="sect4">
-<h5 id="cdi-config-extension"><a class="anchor" href="#cdi-config-extension"></a>cdi-config-extension</h5>
+<div class="sect3">
+<h4 id="cdi-config-extension"><a class="anchor" href="#cdi-config-extension"></a>2.3. cdi-config-extension</h4>
 <div class="paragraph">
 <p><a href="https://github.com/Riduidel/agile-architecture-documentation-system.git/blob/master/maven-metadata-inferer">See on <span class="icon"><i class="fa fa-github"></i></span> GitHub</a></p>
 </div>
-<div class="sect5">
-<h6 id="maven-metadata-inferer"><a class="anchor" href="#maven-metadata-inferer"></a>Maven metadata inferer</h6>
+<div class="sect4">
+<h5 id="maven-metadata-inferer"><a class="anchor" href="#maven-metadata-inferer"></a>Maven metadata inferer</h5>
 <div class="paragraph">
 <p>Maven metadata inferer is used to retrieve as much usefull data as possible from the <code>pom.xml</code>.</p>
 </div>
-<div class="sect6">
-<h7 id="activating"><a class="anchor" href="#activating"></a>Activating</h7>
+<div class="sect5">
+<h6 id="activating"><a class="anchor" href="#activating"></a>Activating</h6>
 <div class="paragraph">
 <p>To allow extraction of maven metadata,
 one has to set either <code>agile.architecture.maven.pom</code> to the path of the maven pom for that module,
 or <code>agile.architecture.maven.class</code> to a class contained in maven pom</p>
 </div>
 </div>
-<div class="sect6">
-<h7 id="extracted-data"><a class="anchor" href="#extracted-data"></a>Extracted data</h7>
+<div class="sect5">
+<h6 id="extracted-data"><a class="anchor" href="#extracted-data"></a>Extracted data</h6>
 <div class="paragraph">
 <p>Currently extracted datas are</p>
 </div>
@@ -1180,13 +936,13 @@ or <code>agile.architecture.maven.class</code> to a class contained in maven pom
 </div>
 </div>
 </div>
-<div class="sect4">
-<h5 id="github-scm-handler"><a class="anchor" href="#github-scm-handler"></a>github-scm-handler</h5>
+<div class="sect3">
+<h4 id="github-scm-handler"><a class="anchor" href="#github-scm-handler"></a>2.4. github-scm-handler</h4>
 <div class="paragraph">
 <p><a href="https://github.com/Riduidel/agile-architecture-documentation-system.git/blob/master/github-scm-handler">See on <span class="icon"><i class="fa fa-github"></i></span> GitHub</a></p>
 </div>
-<div class="sect5">
-<h6 id="github-scm-handler-2"><a class="anchor" href="#github-scm-handler-2"></a>github-scm-handler</h6>
+<div class="sect4">
+<h5 id="github-scm-handler-2"><a class="anchor" href="#github-scm-handler-2"></a>github-scm-handler</h5>
 <div class="paragraph">
 <p>SCM Handler for GitHub project.</p>
 </div>
@@ -1198,13 +954,13 @@ or <code>agile.architecture.maven.class</code> to a class contained in maven pom
 </div>
 </div>
 </div>
-<div class="sect4">
-<h5 id="gitlab-scm-handler"><a class="anchor" href="#gitlab-scm-handler"></a>gitlab-scm-handler</h5>
+<div class="sect3">
+<h4 id="gitlab-scm-handler"><a class="anchor" href="#gitlab-scm-handler"></a>2.5. gitlab-scm-handler</h4>
 <div class="paragraph">
 <p><a href="https://github.com/Riduidel/agile-architecture-documentation-system.git/blob/master/gitlab-scm-handler">See on <span class="icon"><i class="fa fa-github"></i></span> GitHub</a></p>
 </div>
-<div class="sect5">
-<h6 id="gitlab-scm-handler-2"><a class="anchor" href="#gitlab-scm-handler-2"></a>gitlab-scm-handler</h6>
+<div class="sect4">
+<h5 id="gitlab-scm-handler-2"><a class="anchor" href="#gitlab-scm-handler-2"></a>gitlab-scm-handler</h5>
 <div class="paragraph">
 <p>SCM Handler for GitLab project.</p>
 </div>
@@ -1213,224 +969,6 @@ or <code>agile.architecture.maven.class</code> to a class contained in maven pom
 </div>
 <div class="paragraph">
 <p>This handler requires the system property <code>agile.architecture.gitlab.token</code> to be set to a valid GitLab token.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="data"><a class="anchor" href="#data"></a>8. Data</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Data" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>Application hosts no data other, since verything is in the Maven folder.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="infrastructure-architecture"><a class="anchor" href="#infrastructure-architecture"></a>9. Infrastructure Architecture</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Infrastructure%20Architecture" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>The main goal of this application is to produce content that can be browsed as HTML or PDF.
-As a consequence, there is no requirement for any production infrastructure.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="deployment"><a class="anchor" href="#deployment"></a>10. Deployment</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Deployment" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>Deployment of the agile-architecture-documentation code is done by pushing code to GitHub.
-On push, there is a <a href="https://github.com/Riduidel/agile-architecture-documentation-system/actions?query=workflow%3A%22Java+CI+with+Maven%22">GitHub action</a> (defined in <a href="https://github.com/Riduidel/agile-architecture-documentation-system/blob/master/.github/workflows/build.yml">main module .github folder</a>) which will compile everything and generate the github pages.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="development-environment"><a class="anchor" href="#development-environment"></a>11. Development Environment</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Development%20Environment" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>Development of this documentation solution requires a Java environnment.
-In other words, you need</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>A recent JDK (at least Java 11)</p>
-</li>
-<li>
-<p>Maven (at least version 3.6)</p>
-</li>
-<li>
-<p>A Java IDE</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Optionally, things will be better if you have
-* an Asciidoc editor
-* a <a href="http://livereload.com/extensions/">livereload compatible browser</a></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="operation-and-support"><a class="anchor" href="#operation-and-support"></a>12. Operation and Support</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Operation%20and%20Support" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p><strong>TODO</strong></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="decision-log"><a class="anchor" href="#decision-log"></a>13. Decision Log</h2>
-<div class="sectionbody">
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-If you encounter any error, feel free to
-<a href="https://github.com/Riduidel/agile-architecture-documentation-system/issues/new?title=Error%20in%20architecture-documentation%20v.0.0.12-SNAPSHOT%20chapter%20Decision%20Log" target="feedback"><span class="icon"><i class="fa fa-github"></i></span> enter an issue on GitHub</a>.
-</td>
-</tr>
-</table>
-</div>
-<div class="sect2">
-<h3 id="use-adr-to-document-architecture-decisions"><a class="anchor" href="#use-adr-to-document-architecture-decisions"></a>13.1. Use ADR to document architecture decisions</h3>
-<div class="paragraph">
-<p>Date: 2020-01-14</p>
-</div>
-<div class="paragraph">
-<p>We will store decisions as asciidoc documents in <code>src/docs/asciidoc/decisions</code>.</p>
-</div>
-<div class="paragraph">
-<p><strong>Accepted</strong></p>
-</div>
-<div class="paragraph">
-<p>The purpose of this section is to simply record the major decisions that
-have been made, including both the technology choices (e.g. products,
-frameworks, etc) and the overall architecture (e.g. the structure of the
-software, architectural style, decomposition, patterns, etc). For
-example:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Why did you choose technology or framework "X" over "Y" and "Z"?</p>
-</li>
-<li>
-<p>How did you do this? Product evaluation or proof of concept?</p>
-</li>
-<li>
-<p>Were you forced into making a decision about "X" based upon corporate
-policy or enterprise architecture strategies?</p>
-</li>
-<li>
-<p>Why did you choose the selected software architecture? What other
-options did you consider?</p>
-</li>
-<li>
-<p>How do you know that the solution satisfies the major quality
-attributes?</p>
-</li>
-<li>
-<p>&#8230;&#8203;</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Decisions will be integrated in generated documentation</p>
-</li>
-<li>
-<p>Rendering will be optimal</p>
-</li>
-<li>
-<p>Decisions will be burried deep inside Asciidoc hiearchy</p>
-</li>
-<li>
-<p>Decisions can be put in a specific folder</p>
-</li>
-<li>
-<p>We can use "tooling" to access those decisions</p>
-</li>
-<li>
-<p>Decisions will be isolate from architecture documentation</p>
-</li>
-<li>
-<p>Decision rendering will use another tooling (typically Markdown)</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Integrating decisions in Asciidoc requires changing a section of architecture.</p>
 </div>
 </div>
 </div>
