@@ -444,20 +444,26 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Agile Architecture Documentation System : System documentation generator</h1>
 <div class="details">
 <span id="revnumber">version 0.0.12-SNAPSHOT,</span>
-<span id="revdate">2022-04-04T06:46:40Z</span>
+<span id="revdate">2022-04-04T06:47:31Z</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#context">1. Context</a></li>
+<li><a href="#context">1. Context</a>
+<ul class="sectlevel2">
+<li><a href="#context-diagram">1.1. Context diagram</a></li>
+</ul>
+</li>
 <li><a href="#functional-overview">2. Functional Overview</a></li>
 <li><a href="#quality-attributes">3. Quality Attributes</a></li>
 <li><a href="#constraints">4. Constraints</a></li>
 <li><a href="#principles">5. Principles</a></li>
 <li><a href="#software-architecture">6. Software Architecture</a></li>
 <li><a href="#code">7. Code</a>
+<ul class="sectlevel2">
+<li><a href="#agile-architecture-documentation">7.1. Agile architecture documentation</a>
 <ul class="sectlevel3">
-<li><a href="#archetype">7.1. archetype</a>
+<li><a href="#archetype">7.1.1. archetype</a>
 <ul class="sectlevel5">
 <li><a href="#install">Install</a></li>
 <li><a href="#usage">Usage</a></li>
@@ -468,7 +474,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#show-your-support">Show your support</a></li>
 </ul>
 </li>
-<li><a href="#base">7.2. base</a>
+<li><a href="#base">7.1.2. base</a>
 <ul class="sectlevel4">
 <li><a href="#agile-architecture-documentation-base">Agile architecture documentation base</a>
 <ul class="sectlevel5">
@@ -497,6 +503,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#gitlab-scm-handler">gitlab-scm-handler</a>
 <ul class="sectlevel5">
 <li><a href="#gitlab-scm-handler-2">gitlab-scm-handler</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -536,9 +544,10 @@ If you encounter any error, feel free to
 <div class="paragraph">
 <p>agile-architecture-documentation-system tries to provide a solution to a rather usual, but not so well solved, problem:
 how to document architecture of a software system with the minimal effort and the maximal result.
-As a consequence, this product tries to help the architect in all possible ways.
-== Context diagram</p>
+As a consequence, this product tries to help the architect in all possible ways.</p>
 </div>
+<div class="sect2">
+<h3 id="context-diagram"><a class="anchor" href="#context-diagram"></a>1.1. Context diagram</h3>
 <div class="imageblock kroki">
 <div class="content">
 <object type="image/svg+xml" data="https://kroki.io/plantuml/svg/eNq1kk1P3EAMhu_5Fe6edqVmo0JPlSoRLQiQlg9BEOIUzSYmme5kJrIdQlX1v9ezgRbUA6e9RPFrz_Pa4zliMSRD5-a2_n77kwW7VfCCz7JIPllfuaHGgRy0Ij1_yzIy47Kx0g6bgZGqWOplWYUu653xEZSy1M5ustXX9DpKdxfrrDMKJpWWvVbsA1y-dL1fA2M90j4tuj74eGZnsc4fru6K8v68OCvXJ6cnl8fzRZKIFYeQN1a_hqrWClYyEEIdqqHTw0Zs8JDCtE14uZikMv0uce7cwEJTVXgEE0npW1L6njSwaTBJeGt9b8h08CsB6I20Z-EJaRVcIDglRP-AzoVRkzlRGIvWVluPzHCoEj81a-u3haEGBUoFKT_5nVwjcfDzL59hlr-2MNOgaN9MB4ZBUJ25IrtBsBpqfiTNUpxBWpW0vzoG77pfzhavHgeKvRWzxTa4Gim65M5BT-FH9OB_KVZrBEKz-_-QP130_DACP1jLNJrCODzKGF142lKD-rKM4DTZfxY36MrjeEvR5D7OzX_Vg0m90XZVO0Jf6-P5Awb-X-Q="><span class="alt">SystemContext</span></object>
@@ -556,6 +565,7 @@ As a consequence, this product tries to help the architect in all possible ways.
 <p>the various stakeholders, be them developers, product owners, ops teams, and so on, which will refer to the produced documentation as an entrypoint.</p>
 </li>
 </ul>
+</div>
 </div>
 </div>
 </div>
@@ -692,7 +702,7 @@ If you encounter any error, feel free to
 </div>
 <div class="imageblock kroki">
 <div class="content">
-<object type="image/svg+xml" data="https://kroki.io/plantuml/svg/eNq1VU1vGkkQvc-vqPXJljwQh2xirbRSCFjEq5BYjnPICTXTBdNxf4y6eiDeKP891T0DZrB3sRT5wgxNvarXVfUebykIH2qjj5X8WyyVxp7wRakCFqH22JsLwl7hTOUs2kAn2R_KFrqWWHsNZQgV_dXve7HuLVUo63lN6AtnA8dGVL_SwsbsOQWp1bw_epVfxaMv0w99Iyig56NexRHPkXg2iojv4XkLCGXRP2eJtvlNiSwLKmiEYZwV7M4KpCtqw4EiKGchhzg7fmwTUFaIKv32CDgF3w8aVgrXWUa3ylbCCwM_MoBKhPK9W6EfOe08TDyi_YpauzX_OPTerW9KVdxaJIIBH9Fq-UHZ2xvhlxhgxok4dfYz23Zt9s7VVgp_d3z2YjZv308Tl5NUccv9-OzlKRwNdxiPd2_7rlZaoj_imH_ESvRH48v4fnTSzfHnXo4LWwpbHMa95rNNPeLLa4a7g6hXfDbxoiovjArhcJUzPrs0lVaFCpfNIk2FFcvDyAGffR5NY7MnyH0VT2D3psFco5AG4-fBMoNIUEifBx4yBspZWl5sOvGNgadGrNDGb1ferZREAoMF91iRIQgOlFVBCa3-RfBYOVIMvgPUmDoLw49jaCUElXffuM0wHF_DwjsDExXe13NQRDXSPrU42UKqnPW1UMvIDC3xYjxkNgTjZB3XPy6usksQzLIuSq68cN6kfaJ4yPxIzTmSic8jYSEbJtOYC64-TfdYvIwsGq3nVJicLy41PtKdYSwNTWQqS22N9vKSX7YN6Mh6v-J5U1GLp1bkyN-qOIh7k9LmBoOQIoic86Fvqtpa6_hslSVhfte0i9P8zK5Rz8ZJyo0UpaTdru9syJ6zIRVeJe9q9_I-Uxr9BTsGgasDkDMIvL_sZRK7gZH5ZaTKG0AB3GKzeJyf_UjT7nRTj-7xXCS5QCt-2vYoXoCL1r5AWLhkQh1QMoFGk8xQKrFkN02gjddDc_8u7KwDa4dEMTTuLWBrXHsMBx2UZjtIY2aZtxT34puOtLm3KvTJEmBdchtCiazP74q6_JIVsMZlzTmTRKOcfWA53ccxm6SICZv_ZrXaTkVq3cDzpwS-eSRjw7Ybc_7_MZF9yhNtD1o365rMAhon4e2TzKULPf8vaBLXQ-hbtJL_u38BGkkkqQ=="><span class="alt">agile.architecture.base.components</span></object>
+<object type="image/svg+xml" data="https://kroki.io/plantuml/svg/eNq1VU1vGzcQve-vmPpkA14p_mhjFCgQRTIcF1FiuOmhJ4FajrSM-bHgkFLcIP89Q-5a1ipuZSDwRbui5s08vpk3ekNB-BCNPlTyD7FUGgfCV7UKWIXocTAXhIPKmcZZtIGOil-UrXSUGL2GOoSGfh8OvVgPlirUcR4JfeVs4NiEGjZa2JS9pCC1mg_H5-VNOvp7-n5oBAX0fDRoOOIlEs_GCfElvGwBoSz6lyzRid-WKIqggkYYpV7Bdq9AuioaDhRBOQslpN7xY5OAiko0-bcnwDn4sdGwUrguCrpTthFeGPhaADQi1O_cCv3YaefhyiPaf1Brt-YfR9679adaVXcWieCMj2i1fK_s3Sfhlxhgxok4dfGt2Kg2e-uilcLfH568ms279-PM5ShX3HA_PPntGA5GW4wn27d9G5WW6A845k-xEsPx5Dq9Hxz1c5zt5Li0tbDVftwJnz3UI768Zrjbi_qVz668aOpLo0LYX-U1n12bRqtKhet2kKbCiuV-5Cmf_TWeJrGvkHUVz2B33mJuUUiD6XNvmbMkg5C-DNxkDFSytbx4UOIzA4-NWKFN3268WymJBAYr1liRIQgOlFVBCa3-RfDYOFIMvgfUmJWF0YcJdBaCxrvPLDOMJrew8M7AlQrv4hwUUUTapZa0rqQq2V8LtUzM0BIPxo_MRmCcjGn80-AquwTBLGNVc-WF8ybPE6VD5kdqzpFMfJ4IC9kymaZccPNxusPiNLFovV5SZUq-uNT4hDqjVBrayFyWuhrd5SW_bATo2Xq34kVbUYvnVuTIn6p4lqY0py0NBiFFECXnQ99WtVHr9OycJWF-38rFab4Vt6hnk2zl1opS0rbqWxOys9mQKq_y7urm8jFTbv0lbwwCFwOQMwg8v7zLJPYDs78SVZ4ACuAWD4PH-XkfadrubtboEc908xbozE8bjdIFuGj0FcLC5SXUA-Ul0HqSGUollrxNM-hh10N7_z7sdQ_WNYlSaJpbwG5x7TA87aE0r4PcZrZ5R3En_jwr0uXeuNDnlQDrmmUINbI_vyjq88urgD0uI-fMFk129oHt9BjHbE7b64fNaHVKJWr9wIvnBJ4_kbFl24-5-P-YxD7nSWsPum3WXzILaDcJT59kLn3oxX9Bs7l-hL5BK_m_-zsX8ySd"><span class="alt">agile.architecture.base.components</span></object>
 </div>
 </div>
 <div class="paragraph">
@@ -716,8 +726,60 @@ If you encounter any error, feel free to
 </tr>
 </table>
 </div>
+<div class="sect2">
+<h3 id="agile-architecture-documentation"><a class="anchor" href="#agile-architecture-documentation"></a>7.1. Agile architecture documentation</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Priority</th>
+<th class="tableblock halign-left valign-top">Enhancer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MavenDetailsInfererEnhancer</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">99999</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ViewsGenerator</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100000</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ADRExtractor</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100001</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ImplicitIncludeManager</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100002</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SCMLinkGenerator</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100002</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SCMReadmeReader</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100005</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AddDependenciesFromProperties</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2147483646</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DocumentsCollector</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2147483647</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GraphEmitter</p></td>
+</tr>
+</tbody>
+</table>
 <div class="sect3">
-<h4 id="archetype"><a class="anchor" href="#archetype"></a>7.1. archetype</h4>
+<h4 id="archetype"><a class="anchor" href="#archetype"></a>7.1.1. archetype</h4>
 <div class="paragraph">
 <p><a href="https://github.com/Riduidel/agile-architecture-documentation-system.git/blob/master/">See on <span class="icon"><i class="fa fa-github"></i></span> GitHub</a></p>
 </div>
@@ -907,7 +969,7 @@ run <code>mvn package</code> which will trigger Java class compilation and run a
 </div>
 </div>
 <div class="sect3">
-<h4 id="base"><a class="anchor" href="#base"></a>7.2. base</h4>
+<h4 id="base"><a class="anchor" href="#base"></a>7.1.2. base</h4>
 <div class="paragraph">
 <p><a href="https://github.com/Riduidel/agile-architecture-documentation-system.git/blob/master/base">See on <span class="icon"><i class="fa fa-github"></i></span> GitHub</a></p>
 </div>
@@ -1219,6 +1281,7 @@ or <code>agile.architecture.maven.class</code> to a class contained in maven pom
 </div>
 </div>
 </div>
+</div>
 <div class="sect1">
 <h2 id="data"><a class="anchor" href="#data"></a>8. Data</h2>
 <div class="sectionbody">
@@ -1439,7 +1502,7 @@ attributes?</p>
 <div id="footer">
 <div id="footer-text">
 Version 0.0.12-SNAPSHOT<br>
-Last updated 2022-04-04 06:46:27 UTC
+Last updated 2022-04-04 06:47:24 UTC
 </div>
 </div>
 </body>
